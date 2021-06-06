@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66E94CA8266CC96B00F66A02 /* JingiRaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E94CA7266CC96B00F66A02 /* JingiRaderApp.swift */; };
+		66E94CAA266CC96B00F66A02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E94CA9266CC96B00F66A02 /* ContentView.swift */; };
+		66E94CAC266CC96E00F66A02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66E94CAB266CC96E00F66A02 /* Assets.xcassets */; };
+		66E94CAF266CC96E00F66A02 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66E94CAE266CC96E00F66A02 /* Preview Assets.xcassets */; };
+		66E94CBA266CC96E00F66A02 /* JingiRaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E94CB9266CC96E00F66A02 /* JingiRaderTests.swift */; };
+		66E94CC5266CC96F00F66A02 /* JingiRaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E94CC4266CC96F00F66A02 /* JingiRaderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66E94CB6266CC96E00F66A02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66E94C9C266CC96B00F66A02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66E94CA3266CC96B00F66A02;
+			remoteInfo = JingiRader;
+		};
+		66E94CC1266CC96E00F66A02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66E94C9C266CC96B00F66A02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66E94CA3266CC96B00F66A02;
+			remoteInfo = JingiRader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66E94CA4266CC96B00F66A02 /* JingiRader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JingiRader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66E94CA7266CC96B00F66A02 /* JingiRaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JingiRaderApp.swift; sourceTree = "<group>"; };
+		66E94CA9266CC96B00F66A02 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		66E94CAB266CC96E00F66A02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66E94CAE266CC96E00F66A02 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		66E94CB0266CC96E00F66A02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66E94CB5266CC96E00F66A02 /* JingiRaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JingiRaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66E94CB9266CC96E00F66A02 /* JingiRaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JingiRaderTests.swift; sourceTree = "<group>"; };
+		66E94CBB266CC96E00F66A02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66E94CC0266CC96E00F66A02 /* JingiRaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JingiRaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66E94CC4266CC96F00F66A02 /* JingiRaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JingiRaderUITests.swift; sourceTree = "<group>"; };
+		66E94CC6266CC96F00F66A02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66E94CA1266CC96B00F66A02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66E94CB2266CC96E00F66A02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66E94CBD266CC96E00F66A02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66E94C9B266CC96B00F66A02 = {
+			isa = PBXGroup;
+			children = (
+				66E94CA6266CC96B00F66A02 /* JingiRader */,
+				66E94CB8266CC96E00F66A02 /* JingiRaderTests */,
+				66E94CC3266CC96E00F66A02 /* JingiRaderUITests */,
+				66E94CA5266CC96B00F66A02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66E94CA5266CC96B00F66A02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66E94CA4266CC96B00F66A02 /* JingiRader.app */,
+				66E94CB5266CC96E00F66A02 /* JingiRaderTests.xctest */,
+				66E94CC0266CC96E00F66A02 /* JingiRaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66E94CA6266CC96B00F66A02 /* JingiRader */ = {
+			isa = PBXGroup;
+			children = (
+				66E94CA7266CC96B00F66A02 /* JingiRaderApp.swift */,
+				66E94CA9266CC96B00F66A02 /* ContentView.swift */,
+				66E94CAB266CC96E00F66A02 /* Assets.xcassets */,
+				66E94CB0266CC96E00F66A02 /* Info.plist */,
+				66E94CAD266CC96E00F66A02 /* Preview Content */,
+			);
+			path = JingiRader;
+			sourceTree = "<group>";
+		};
+		66E94CAD266CC96E00F66A02 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				66E94CAE266CC96E00F66A02 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		66E94CB8266CC96E00F66A02 /* JingiRaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				66E94CB9266CC96E00F66A02 /* JingiRaderTests.swift */,
+				66E94CBB266CC96E00F66A02 /* Info.plist */,
+			);
+			path = JingiRaderTests;
+			sourceTree = "<group>";
+		};
+		66E94CC3266CC96E00F66A02 /* JingiRaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				66E94CC4266CC96F00F66A02 /* JingiRaderUITests.swift */,
+				66E94CC6266CC96F00F66A02 /* Info.plist */,
+			);
+			path = JingiRaderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66E94CA3266CC96B00F66A02 /* JingiRader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66E94CC9266CC96F00F66A02 /* Build configuration list for PBXNativeTarget "JingiRader" */;
+			buildPhases = (
+				66E94CA0266CC96B00F66A02 /* Sources */,
+				66E94CA1266CC96B00F66A02 /* Frameworks */,
+				66E94CA2266CC96B00F66A02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JingiRader;
+			productName = JingiRader;
+			productReference = 66E94CA4266CC96B00F66A02 /* JingiRader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66E94CB4266CC96E00F66A02 /* JingiRaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66E94CCC266CC96F00F66A02 /* Build configuration list for PBXNativeTarget "JingiRaderTests" */;
+			buildPhases = (
+				66E94CB1266CC96E00F66A02 /* Sources */,
+				66E94CB2266CC96E00F66A02 /* Frameworks */,
+				66E94CB3266CC96E00F66A02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66E94CB7266CC96E00F66A02 /* PBXTargetDependency */,
+			);
+			name = JingiRaderTests;
+			productName = JingiRaderTests;
+			productReference = 66E94CB5266CC96E00F66A02 /* JingiRaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66E94CBF266CC96E00F66A02 /* JingiRaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66E94CCF266CC96F00F66A02 /* Build configuration list for PBXNativeTarget "JingiRaderUITests" */;
+			buildPhases = (
+				66E94CBC266CC96E00F66A02 /* Sources */,
+				66E94CBD266CC96E00F66A02 /* Frameworks */,
+				66E94CBE266CC96E00F66A02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66E94CC2266CC96E00F66A02 /* PBXTargetDependency */,
+			);
+			name = JingiRaderUITests;
+			productName = JingiRaderUITests;
+			productReference = 66E94CC0266CC96E00F66A02 /* JingiRaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66E94C9C266CC96B00F66A02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					66E94CA3266CC96B00F66A02 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					66E94CB4266CC96E00F66A02 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 66E94CA3266CC96B00F66A02;
+					};
+					66E94CBF266CC96E00F66A02 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 66E94CA3266CC96B00F66A02;
+					};
+				};
+			};
+			buildConfigurationList = 66E94C9F266CC96B00F66A02 /* Build configuration list for PBXProject "JingiRader" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66E94C9B266CC96B00F66A02;
+			productRefGroup = 66E94CA5266CC96B00F66A02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66E94CA3266CC96B00F66A02 /* JingiRader */,
+				66E94CB4266CC96E00F66A02 /* JingiRaderTests */,
+				66E94CBF266CC96E00F66A02 /* JingiRaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66E94CA2266CC96B00F66A02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66E94CAF266CC96E00F66A02 /* Preview Assets.xcassets in Resources */,
+				66E94CAC266CC96E00F66A02 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66E94CB3266CC96E00F66A02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66E94CBE266CC96E00F66A02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66E94CA0266CC96B00F66A02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66E94CAA266CC96B00F66A02 /* ContentView.swift in Sources */,
+				66E94CA8266CC96B00F66A02 /* JingiRaderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66E94CB1266CC96E00F66A02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66E94CBA266CC96E00F66A02 /* JingiRaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66E94CBC266CC96E00F66A02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66E94CC5266CC96F00F66A02 /* JingiRaderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66E94CB7266CC96E00F66A02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66E94CA3266CC96B00F66A02 /* JingiRader */;
+			targetProxy = 66E94CB6266CC96E00F66A02 /* PBXContainerItemProxy */;
+		};
+		66E94CC2266CC96E00F66A02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66E94CA3266CC96B00F66A02 /* JingiRader */;
+			targetProxy = 66E94CC1266CC96E00F66A02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		66E94CC7266CC96F00F66A02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		66E94CC8266CC96F00F66A02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66E94CCA266CC96F00F66A02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"JingiRader/Preview Content\"";
+				DEVELOPMENT_TEAM = Y6V36P2Q3X;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = JingiRader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "chi-haru.JingiRader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66E94CCB266CC96F00F66A02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"JingiRader/Preview Content\"";
+				DEVELOPMENT_TEAM = Y6V36P2Q3X;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = JingiRader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "chi-haru.JingiRader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		66E94CCD266CC96F00F66A02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6V36P2Q3X;
+				INFOPLIST_FILE = JingiRaderTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "chi-haru.JingiRaderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JingiRader.app/JingiRader";
+			};
+			name = Debug;
+		};
+		66E94CCE266CC96F00F66A02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6V36P2Q3X;
+				INFOPLIST_FILE = JingiRaderTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "chi-haru.JingiRaderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JingiRader.app/JingiRader";
+			};
+			name = Release;
+		};
+		66E94CD0266CC96F00F66A02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6V36P2Q3X;
+				INFOPLIST_FILE = JingiRaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "chi-haru.JingiRaderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JingiRader;
+			};
+			name = Debug;
+		};
+		66E94CD1266CC96F00F66A02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6V36P2Q3X;
+				INFOPLIST_FILE = JingiRaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "chi-haru.JingiRaderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JingiRader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66E94C9F266CC96B00F66A02 /* Build configuration list for PBXProject "JingiRader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66E94CC7266CC96F00F66A02 /* Debug */,
+				66E94CC8266CC96F00F66A02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66E94CC9266CC96F00F66A02 /* Build configuration list for PBXNativeTarget "JingiRader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66E94CCA266CC96F00F66A02 /* Debug */,
+				66E94CCB266CC96F00F66A02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66E94CCC266CC96F00F66A02 /* Build configuration list for PBXNativeTarget "JingiRaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66E94CCD266CC96F00F66A02 /* Debug */,
+				66E94CCE266CC96F00F66A02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66E94CCF266CC96F00F66A02 /* Build configuration list for PBXNativeTarget "JingiRaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66E94CD0266CC96F00F66A02 /* Debug */,
+				66E94CD1266CC96F00F66A02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66E94C9C266CC96B00F66A02 /* Project object */;
+}
