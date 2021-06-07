@@ -34,16 +34,30 @@ class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
 //        self.heading = newHeading.trueHeading
     }
     
-    func locationManager(_ manager: CLLocationManager, didUpdateLovations locations: [CLLocation]) {
-
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         locations.last.map {
+            self.region.center = $0.coordinate
 
-            let center = CLLocationCoordinate2D(
-                latitude: $0.coordinate.latitude,
-                longitude: $0.coordinate.longitude)
-            let span = MKCoordinateSpan(latitudeDelta: 1.0, longitudeDelta: 1.0)
+            if self.region.span.latitudeDelta < 0.01 {
+                self.region.span = MKCoordinateSpan(latitudeDelta: 10.0, longitudeDelta: 10.0)
+            }
             
-            region = MKCoordinateRegion(center: center, span: span)
+//            let center = CLLocationCoordinate2D(
+//                latitude: $0.coordinate.latitude,
+//                longitude: $0.coordinate.longitude)
+            
+            
+            
+            
+//            let locCalc = LocationCalc(latitude: center.latitude, longitude: center.longitude)
+//            let maxDist:Double = locCalc.maxDistance()
+//
+//            self.region = MKCoordinateRegion(
+//                center: center,
+//                latitudinalMeters: maxDist * 2200,
+//                longitudinalMeters: maxDist * 2200
+//            )
+
 
         }
 

@@ -72,6 +72,7 @@ struct ContentView: View {
         ]
         
         VStack{
+
             Spacer()
 
             HStack{
@@ -91,12 +92,9 @@ struct ContentView: View {
                 Text("\(spotList[2].name)")
             }
             Text("距離： \(distances[2])㎞  方向： \(angles[2])")
-
-//            Text("dist: \(dista)  angle: \(angle)")
             
             Map(coordinateRegion: $manager.region,
-                interactionModes: MapInteractionModes.all,
-//                interactionModes: MapInteractionModes.zoom,
+                interactionModes: MapInteractionModes.zoom,
                 showsUserLocation: true,
                 userTrackingMode: $trackingMode,
                 annotationItems: spotList,

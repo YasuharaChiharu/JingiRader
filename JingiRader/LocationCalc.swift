@@ -17,6 +17,25 @@ class LocationCalc: NSObject {
         self.currentLongitude = longitude
     }
     
+    
+    func maxDistance() -> Double {
+        
+        let points = [
+            CLLocationCoordinate2D(latitude: 34.4549588, longitude: 136.7251689),
+            CLLocationCoordinate2D(latitude: 35.1273705, longitude: 136.90868),
+            CLLocationCoordinate2D(latitude: 35.67768462493625, longitude: 139.7254372422649)
+        ]
+        
+        var maxDist:Double = 0.0
+        
+        for point in points {
+            let dist = distance(coordinate: point)
+            if maxDist < dist { maxDist = dist }
+        }
+        
+        return maxDist
+    }
+    
     // 基準地の緯度経度から目的地の緯度経度の方角を計算する
 //    func angle(targetLatitude: Double, targetLongitude: Double) -> Int {
     func angle(coordinate: CLLocationCoordinate2D) -> Int {
