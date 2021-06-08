@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66B9F9CA266F3699000608E1 /* JIngiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B9F9C9266F3699000608E1 /* JIngiData.swift */; };
 		66E94CA8266CC96B00F66A02 /* JingiRaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E94CA7266CC96B00F66A02 /* JingiRaderApp.swift */; };
 		66E94CAA266CC96B00F66A02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E94CA9266CC96B00F66A02 /* ContentView.swift */; };
 		66E94CAC266CC96E00F66A02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66E94CAB266CC96E00F66A02 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		66B9F9C9266F3699000608E1 /* JIngiData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JIngiData.swift; sourceTree = "<group>"; };
 		66E94CA4266CC96B00F66A02 /* JingiRader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JingiRader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66E94CA7266CC96B00F66A02 /* JingiRaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JingiRaderApp.swift; sourceTree = "<group>"; };
 		66E94CA9266CC96B00F66A02 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				66E94CA7266CC96B00F66A02 /* JingiRaderApp.swift */,
+				66B9F9C9266F3699000608E1 /* JIngiData.swift */,
 				66E94CA9266CC96B00F66A02 /* ContentView.swift */,
 				66E94CD4266CCC5400F66A02 /* LocationCalc.swift */,
 				66E94CD2266CC9D500F66A02 /* LocationManager.swift */,
@@ -267,6 +270,7 @@
 			files = (
 				66E94CAA266CC96B00F66A02 /* ContentView.swift in Sources */,
 				66E94CD5266CCC5400F66A02 /* LocationCalc.swift in Sources */,
+				66B9F9CA266F3699000608E1 /* JIngiData.swift in Sources */,
 				66E94CA8266CC96B00F66A02 /* JingiRaderApp.swift in Sources */,
 				66E94CD3266CC9D500F66A02 /* LocationManager.swift in Sources */,
 			);

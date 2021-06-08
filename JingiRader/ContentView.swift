@@ -23,7 +23,7 @@ struct Spot: Identifiable {
 struct ContentView: View {
     
     @ObservedObject var manager = LocationManager()
-    @State var trackingMode = MapUserTrackingMode.follow
+    @State var trackingMode = MapUserTrackingMode.none
     
     let spotList = [
         Spot(name: "八咫鏡",
@@ -93,6 +93,7 @@ struct ContentView: View {
             }
             Text("距離： \(distances[2])㎞  方向： \(angles[2])")
             
+
             Map(coordinateRegion: $manager.region,
                 interactionModes: MapInteractionModes.zoom,
                 showsUserLocation: true,
