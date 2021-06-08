@@ -33,11 +33,12 @@ class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
         self.heading = newHeading.magneticHeading
     }
     
+    let jingiData = JingiData()
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         locations.last.map {
             
-            let locCalc = LocationCalc(latitude: $0.coordinate.latitude, longitude: $0.coordinate.longitude)
-            let maxDist:Double = locCalc.maxDistance()
+            let locCalc  = LocationCalc(currentCoordinate: $0.coordinate)
+            let maxDist:Double = jingiData.maxDistance(locationCalc: locCalc)
 
             self.region = MKCoordinateRegion(
                 center: $0.coordinate,

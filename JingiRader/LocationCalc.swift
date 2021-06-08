@@ -13,8 +13,15 @@ class LocationCalc: NSObject {
     var currentLongitude: Double
     
     init(latitude: Double, longitude: Double) {
+        
         self.currentLatitude = latitude
         self.currentLongitude = longitude
+    }
+    
+    init(currentCoordinate: CLLocationCoordinate2D) {
+        
+        self.currentLatitude = currentCoordinate.latitude
+        self.currentLongitude = currentCoordinate.longitude
     }
     
     
