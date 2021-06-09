@@ -49,16 +49,30 @@ public struct JingiData {
     }
     
     
-    func angleList(locationCalc: LocationCalc) -> [String] {
+    func dirList(locationCalc: LocationCalc) -> [String] {
+        
+        let angles = angleList(locationCalc: locationCalc)
+
+        let dirs = [
+            directory(angle: angles[0]),
+            directory(angle: angles[1]),
+            directory(angle: angles[2]),
+        ]
+        
+        return dirs
+    }
+    
+    func angleList(locationCalc: LocationCalc) -> [Int] {
         
         let angles = [
-            directory(angle: locationCalc.angle(coordinate: jingiList[0].coordinate)),
-            directory(angle: locationCalc.angle(coordinate: jingiList[1].coordinate)),
-            directory(angle: locationCalc.angle(coordinate: jingiList[2].coordinate))
+            locationCalc.angle(coordinate: jingiList[0].coordinate),
+            locationCalc.angle(coordinate: jingiList[1].coordinate),
+            locationCalc.angle(coordinate: jingiList[2].coordinate)
         ]
         
         return angles
     }
+
     
     func distList(locationCalc: LocationCalc) -> [Double] {
         
@@ -72,7 +86,6 @@ public struct JingiData {
     }
     
     func maxDistance(locationCalc: LocationCalc) -> Double {
-                
         let distList = self.distList(locationCalc: locationCalc)
         
         var maxDist:Double = 0.0
@@ -82,5 +95,17 @@ public struct JingiData {
         
         return maxDist
     }
+
+    func minDistance(locationCalc: LocationCalc) -> Double {
+        let distList = self.distList(locationCalc: locationCalc)
+        
+        var minDist:Double = 100000000.0
+        for dist in distList {
+            if minDist > dist { minDist = dist }
+        }
+        
+        return minDist
+    }
+
     
 }

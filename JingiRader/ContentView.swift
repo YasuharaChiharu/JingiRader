@@ -18,33 +18,51 @@ struct ContentView: View {
     var body: some View {
         
         let locCalc = LocationCalc(currentCoordinate: $manager.region.center.wrappedValue)
-        let angles = jingiData.angleList(locationCalc: locCalc)
+        let angles = jingiData.dirList(locationCalc: locCalc)
+        let compas = jingiData.angleList(locationCalc: locCalc)
         let distances = jingiData.distList(locationCalc: locCalc)
-        
+        let circleColor = (jingiData.minDistance(locationCalc: locCalc) < 10.0) ? Color.red : Color.white
         let spotList = jingiData.jingiList
         let heading = $manager.heading.wrappedValue
 
         VStack{
 
-            Spacer()
-
+            Image("Logo").scaleEffect(0.5)
+                .frame(width: 300, height: 70, alignment: .center)
+                .clipped()
             HStack{
                 Image(systemName: spotList[0].symbol).foregroundColor(.red)
-                Text("\(spotList[0].name)")
+                Text("\(spotList[0].name)").bold()
+                Image(systemName: "location.north.fill")
+                    .rotationEffect(Angle(degrees: Double(compas[0])-heading))
+                    .foregroundColor(.red)
             }
-            Text(String(format: "距離：%.2f ㎞　方向：" + angles[0] , distances[0] ))
+            HStack{
+                Text(String(format: "距離：%.2f ㎞　方向：" + angles[0] , distances[0] ))
+            }
             Spacer()
             HStack{
                 Image(systemName: spotList[1].symbol).foregroundColor(.red)
-                Text("\(spotList[1].name)")
+                Text("\(spotList[1].name)").bold()
+                Image(systemName: "location.north.fill")
+                    .rotationEffect(Angle(degrees: Double(compas[1])-heading))
+                    .foregroundColor(.red)
             }
-            Text(String(format: "距離：%.2f ㎞　方向：" + angles[1] , distances[1] ))
+            HStack{
+                Text(String(format: "距離：%.2f ㎞　方向：" + angles[1] , distances[1] ))
+            }
             Spacer()
             HStack{
                 Image(systemName: spotList[2].symbol).foregroundColor(.red)
-                Text("\(spotList[2].name)")
+                Text("\(spotList[2].name)").bold()
+                Image(systemName: "location.north.fill")
+                    .rotationEffect(Angle(degrees: Double(compas[2])-heading))
+                    .foregroundColor(.red)
+
             }
-            Text(String(format: "距離：%.2f ㎞　方向：" + angles[2] , distances[2] ))
+            HStack{
+                Text(String(format: "距離：%.2f ㎞　方向：" + angles[2] , distances[2] ))
+            }
 
             Map(coordinateRegion: $manager.region,
                 interactionModes: MapInteractionModes.zoom,
@@ -59,7 +77,7 @@ struct ContentView: View {
                                   })
                 }
             ).clipShape(Circle())
-            .overlay(Circle().stroke(Color.white, lineWidth: 4))
+            .overlay(Circle().stroke(circleColor, lineWidth: 4))
             .shadow(radius: 10)
             .padding(40)
             .edgesIgnoringSafeArea(.bottom)

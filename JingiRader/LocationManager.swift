@@ -37,11 +37,16 @@ class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         locations.last.map {
             
-            let locCalc  = LocationCalc(currentCoordinate: $0.coordinate)
+            let current = $0.coordinate
+            
+            //let osaka = CLLocationCoordinate2D(latitude: 34.68639, longitude: 135.52)
+            
+            
+            let locCalc  = LocationCalc(currentCoordinate: current)
             let maxDist:Double = jingiData.maxDistance(locationCalc: locCalc)
 
             self.region = MKCoordinateRegion(
-                center: $0.coordinate,
+                center: current,
                 latitudinalMeters: maxDist * 2200,
                 longitudinalMeters: maxDist * 2200
             )
